@@ -1,0 +1,30 @@
+import personajes.*
+import deLorean.*
+
+describe "Tests Volver al futuro" {
+	const doc= new Personaje() // mayor
+	const jenny = new Personaje() // menor
+
+	test "Si el deLorean Con Doc y Jenn viajan con radiactividad, ambos disminuyen un cm de altura" {
+		// Test
+		assert.that(true)
+	}
+	
+	test "Si el deLorean Con Doc y Jenn viajan con nafta, jenn envejece 5 años y el doc rejuvenece 10"{
+		// Test
+		assert.that(true)
+		
+	}
+	
+	test "Si el deLorean Con Doc y Jenn viajan con electricidad, cuando intenta hacer que jenn pierda un objeto 
+		  lanza un error"{
+		
+	//	assert.throwsException... 
+		assert.that(true)
+	}
+	
+	test "Si el deLorean Con Doc y Jenn viajan con basura, quedan igual"{
+		
+		assert.that(true)
+	}
+}

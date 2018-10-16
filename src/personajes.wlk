@@ -1,0 +1,4 @@
+import deLorean.*
+
+class Personaje{
+ }
